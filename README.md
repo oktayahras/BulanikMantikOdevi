@@ -40,14 +40,3 @@ Uçuş öncesinde belirsizlik içeren çevresel ve operasyonel verileri değerle
 | Çıktı   | Güvenlik Skoru           | Genel güvenlik değerlendirmesi (fuzzy)   | 0 – 100       |
 | Çıktı   | Uçuş Onay Durumu         | Uçuşun devam edip etmeyeceği kararı      | 0 – 100       |
 
----
-
-##  Kurulum
-
-Proje klasörünü klonladıktan sonra, aşağıdaki adımları izleyin:
-
-```bash
-git clone https://github.com/kullaniciadi/ucus-fuzzy.git
-cd ucus-fuzzy
-pip install -r requirements.txt
-python gui_main.py
